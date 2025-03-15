@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    {% block head %}
     <link rel="stylesheet" href="index.css">
     <title>Dark Souls Russian Wiki</title>
-    {% endblock %}
 </head>
 <body>
     <div id="wrap">
@@ -34,7 +32,6 @@
     </header>
     <main>
         <article class="main">
-            {% block content %}
             <h1 class="main_title">ЗАГЛАВНАЯ</h1>
             <article class="welcome block">
                 <p>Добро пожаловать на страницу русскоязычной энциклопедии о серии игр Dark Souls</p>
@@ -81,7 +78,6 @@
                 <h1>ТРЕЙЛЕР</h1>
                 <iframe src="https://www.youtube.com/embed/KfjG9ZLGBHE?si=N-XokKvXFnVSSwkz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </article>
-            {% endblock %}
         </article>
     </main>
     </div>
